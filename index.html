@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/icon" href="img/Band_Members.png" />
         <title>Band Members</title>
     </head>
 
@@ -50,11 +51,11 @@
 
                 <label for="instrument">Instrument:</label><br>
                 <select name="instrument" id="instrument" v-model="newMember.instrument">
-                    <option value="Baixo">Bass guitar</option>
-                    <option value="Guitarra">Eletric guitar</option>
-                    <option value="Violão">Guitar</option>
-                    <option value="Bateria">Drums</option>
-                    </select>
+                    <option value="Bass guitar">Bass guitar</option>
+                    <option value="Eletric guitar">Eletric guitar</option>
+                    <option value="Guitar">Guitar</option>
+                    <option value="Drums">Drums</option>
+                </select>
                     <br><br>
                 <input type="button" value="Add" @click="addMember()">
                 </form> 

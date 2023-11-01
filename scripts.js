@@ -2,12 +2,12 @@ members = [
     {
         fname: 'John',
         lname: 'Lennon',
-        instrument: 'Violão'
+        instrument: 'Guitar'
     },
     {
         fname: 'George',
         lname: 'Harrison',
-        instrument: 'Guitarra'
+        instrument: 'Eletric guitar'
     }
 ]
 
